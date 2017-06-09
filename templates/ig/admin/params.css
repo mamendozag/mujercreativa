@@ -1,0 +1,50 @@
+/*
+Description: template admin interface
+*/
+
+/*  Interface 
+--------------------------------------------------------------------------------------------------------------------- */
+
+fieldset.panelform label, fieldset.panelform div.paramrow label, fieldset.panelform span.faux-label { width: 200px; padding: 2px 5px 2px 0; float: left; line-height: 18px; }
+fieldset input, fieldset textarea, fieldset select, fieldset img, fieldset button { float: left; margin: 5px 5px 5px 0; -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; width: 220px; padding: 3px; border: 1px solid #D2D2D2; border-radius: 4px; font-size: 12px; }
+fieldset.adminform fieldset.radio input, fieldset.panelform fieldset.radio input, fieldset.adminform-legacy fieldset.radio input, div#menu-assignment input { width:20px; }
+fieldset.adminform fieldset.radio label, fieldset.panelform fieldset.radio label { width: 60px; padding: 0 10px 0 0; float: left; clear: none; display: inline; }
+fieldset.adminform fieldset.radio, fieldset.panelform fieldset.radio, fieldset.adminform-legacy fieldset.radio { border: 0; float: left; padding: 4px 0; }
+div.width-20 fieldset, div.width-30 fieldset, div.width-35 fieldset, div.width-40 fieldset, div.width-45 fieldset, div.width-50 fieldset, div.width-55 fieldset, div.width-60 fieldset, div.width-65 fieldset, div.width-70 fieldset, div.width-80 fieldset, div.width-100 fieldset { padding: 15px; margin-bottom:0; }
+textarea#jform_params_analyticsCode { height: 200px; width: 300px; }
+button.jform-rightbtn { width:120px; }
+
+
+/*  Tabs 
+--------------------------------------------------------------------------------------------------------------------- */
+
+.pane-sliders .panel { margin-bottom: 0; }
+
+.pane-sliders .panel h3 {
+	background: url(images/panel-bg.png) repeat-x #000;
+	color: #FFFFFF;
+	height: 36px;
+	line-height: 36px;
+	padding: 0 0 0 10px;
+}
+.pane-sliders .panel h3 a {color:#CCC; text-shadow:0px 1px 10px #324CC9; }
+
+.pane-toggler span { background: transparent url(images/arrow.png) 36px 50% no-repeat; padding-left: 60px; }
+.pane-toggler-down span { background: transparent url(images/arrow_down.png) 36px 50% no-repeat; padding-left: 60px; }
+
+h3#social-options a, h3#animacja-options a, h3#logo-options a, h3#back-options a, h3#comercial-options {	
+	display:block; 
+}
+
+h3#social-options a { background: url(images/social.png) left 60% no-repeat; }
+h3#animacja-options a { background: url(images/slideshow.png) left 60% no-repeat; }
+h3#logo-options a { background: url(images/logo.png) left 60% no-repeat; }
+h3#back-options a { background: url(images/top.png) left 60% no-repeat; }
+h3#comercial-options a { background: url(images/buy.png) left 60% no-repeat; }
+h3#analytics-options a { background: url(images/google.png) left 60% no-repeat; }
+h3#footer-options a { background: url(images/footer.png) left 60% no-repeat; }
+
+hr { margin:15px 0; border:0; border-top:1px solid #ccc; border-bottom:1px solid #ccc; }
+
+
+

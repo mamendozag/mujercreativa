@@ -1,0 +1,88 @@
+
+/**************************************************************************************/
+/*
+/*		Web: http://www.asdesigning.com
+/*		Web: http://www.astemplates.com
+/*		License: GNU/GPL
+/*
+/**************************************************************************************/
+
+#as-menu
+{
+	min-height: 53px;
+	
+}
+
+#as-menu ul.as-menu > li a,
+#as-menu ul.as-menu > li > span
+{
+	margin: 15px 0px;
+	padding: 0px 25px;
+	display: block;
+	font-weight: bold;
+	line-height: 20px;
+}
+
+#as-menu ul.as-menu > li a:hover
+{
+	background: none !important;	
+}
+
+#as-menu ul.as-menu > li,
+#as-menu ul.as-menu > li:hover
+{
+	background: none;
+	width: auto;
+	margin: 20px 1px 3px;
+}
+
+#as-menu ul.as-menu > li:first-child
+{
+	margin-left: 0px;	
+}
+
+#as-menu ul.as-menu > li:last-child a,
+#as-menu ul.as-menu > li.active > a,
+#as-menu ul.as-menu > li.asHover > a,
+#as-menu ul.as-menu > li.current > a,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+}
+
+#as-menu ul.as-menu > li.deeper > a:after
+{
+	top: -2px;	
+}
+
+#as-menu ul.as-menu > li:hover,
+#as-menu ul.as-menu > li.active,
+#as-menu ul.as-menu > li.asHover,
+#as-menu ul.as-menu > li.current,
+#as-menu ul.as-menu > li.active > span,
+#as-menu ul.as-menu > li.asHover > span,
+#as-menu ul.as-menu > li.current > span
+{
+	border-radius: 5px;
+}
+
+#as-menu ul.as-menu li:hover ul,
+#as-menu ul.as-menu li.asHover ul
+{
+	left: 0;
+	top: 53px;
+	z-index: 100;
+	border-radius: 5px;	
+}
+
+#as-menu ul.as-menu ul li a,
+#as-menu ul.as-menu ul li span
+{
+	margin: 0px;	
+}
+
+#as-menu ul.as-menu ul ul
+{
+	left: 193px !important;
+}

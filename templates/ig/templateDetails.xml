@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 2.5//DTD template 1.0//EN" "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<extension version="2.5" client="site" type="template" method="upgrade">
+    <name>ig</name>
+    <creationDate>2012-10-04</creationDate>
+    <version>2.5</version>
+    <author>www.diablodesign.eu</author>
+    <authorUrl>http://www.diablodesign.eu</authorUrl>
+    <description><![CDATA[ 
+
+<link rel="stylesheet" href="../templates/ig/admin/params.css" type="text/css" />
+
+<h1>DD INFINITY GROUP</h1>
+<br />Configuration template: <a href="../templates/ig/configuration_template.pdf" target="_blank">Configuration template PDF</a>.<br /><br/>
+    <span style="font-size: 15px;font-weight:bold;">
+			DD INFINITY GROUP template ,design by DiabloDesign.
+			<span style="color:red; font-weight: bold; ">!Not for commercial!!! for commercial use, you must pay a special license (10 EURO) .</span> <br />
+			    <span style="font-size: 15px;font-weight:bold;">
+			<br />DD INFINITY GROUP template ,design by DiabloDesign.
+			<span style="color:green; font-weight: bold; ">!Szablonu nie można używać na stonach firmowych!!! Licencja dla stron firmowych kosztuje. (40PLN BRUTTO) .</span> <br />				
+			<br />Visit Diablodesign.eu: <a href="http://www.diablodesign.eu" target="_blank">http://www.diablodesign.eu</a>.<br />
+			</span>	
+
+
+	
+	<br />Copyright 2012 www.diablodesign.eu - All Rights Reserved</b>
+]]></description>
+    <files>
+        <folder>css</folder>
+		<folder>admin</folder>
+		<folder>js</folder>
+		<folder>themes</folder>
+		<folder>fonts</folder>
+		<folder>pie</folder>
+        <folder>html</folder>
+        <folder>images</folder>
+        <folder>language</folder>
+        <folder>library</folder>
+		<file>configuration_template.pdf</file>
+        <file>component.php</file>
+        <file>favicon.ico</file>
+        <file>functions.php</file>
+        <file>index.html</file>
+        <file>index.php</file>
+        <file>jquery.js</file>
+        <file>script.js</file>
+        <file>script.responsive.js</file>
+        <file>templateDetails.xml</file>
+        <file>template_preview.png</file>
+        <file>template_thumbnail.png</file>
+    </files>
+    <positions>
+        <position>debug</position>
+        <position>position-1</position>
+        <position>position-2</position>
+        <position>position-4</position>
+        <position>position-5</position>
+        <position>position-7</position>
+        <position>position-9</position>
+        <position>position-10</position>
+        <position>position-11</position>
+        <position>position-12</position>
+        <position>position-15</position>
+        <position>position-16</position>
+        <position>position-17</position>
+        <position>position-18</position>
+        <position>position-19</position>
+        <position>position-20</position>
+        <position>position-21</position>
+        <position>position-22</position>
+        <position>position-23</position>
+        <position>position-24</position>
+        <position>position-25</position>
+        <position>position-26</position>
+        <position>position-27</position>
+        <position>position-28</position>
+        <position>position-29</position>
+        <position>position-30</position>
+		<position>slideshow</position>
+    </positions>
+    <config>
+        <fields name="params">
+		<fieldset name="comercial" label="Commercial license">
+		<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;BUY COMMERCIAL LICENSE&lt;/b&gt;&lt;/a&gt;" />
+		<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;AMOUNT: 5 EURO&lt;/b&gt;&lt;/a&gt;" />
+		<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;PAYMENT PAYPAL&lt;/b&gt;&lt;/a&gt;" />
+		<field type="spacer" class="text" label="&lt;b style='color:blue;'&gt;E-mail: biuro@diablodesign.eu&lt;/b&gt;&lt;/a&gt;" />
+		<field type="spacer" class="text" label="&lt;b style='color:blue;'&gt;www.diablodesign.eu&lt;/b&gt;&lt;/a&gt;" />
+		</fieldset>
+		<fieldset name="social" label="Links to social networking sites">	
+			
+			<field name="facebook" type="text" default="http://" label="Facebok url:" description="facebok link" filter="string" />
+			<field name="facebookt" type="text" default="Become a fan on Facebook" label="Facebok text:" description="facebok text" filter="string" />
+			<field name="iconf" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			<field name="twitter" type="text" default="http://" label="Twitter url:" description="twitter link" filter="string" />
+			<field name="twittert" type="text" default="Follow us on Twitter" label="Twitter text:" description="twitter text" filter="string" />
+				<field name="icont" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+		
+			<field name="flickr" type="text" default="http://" label="Flickr url:" description="flickr link" filter="string" />
+			<field name="flickrt" type="text" default="Add us on Flickr" label="Flickr text:" description="flickr text" filter="string" />
+				<field name="iconfl" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			<field name="rss" type="text" default="http://" label="Rss url:" description="Rss link" filter="string" />
+			<field name="rsst" type="text" default="Follow our updates through RSS" label="Rss text:" description="Rss text" filter="string" />
+				<field name="iconrss" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			<field name="email" type="text" default="mailto:" label="email url:" description="email link" filter="string" />
+			<field name="emailt" type="text" default="Subscribe to our newsletter" label="email text:" description="email text" filter="string" />
+				<field name="icone" type="list" default="1" label="" description="">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+		<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Disabled all share icon! / WYLACZ WSZYTKIE IKONY SPOLECZNOSCIOWE !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="allicon" type="list" default="1" label="" description="test">
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			</fieldset>
+			<fieldset name="animacja" label="Configuration Slideshow">
+				<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar fotografi musi wynosić 974x na 235px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;Size photo must be 974px to 235px! !&lt;/b&gt;&lt;/a&gt;" />
+			<field name="foto1" type="media" label="Upload foto 1" description="" default="templates/ig/images/demo/1.jpg"/>
+			<field name="text1" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" label="Write text" description="" rows="8" cols="60"  />
+			<field name="text1d" type="list" default="1" label="" description="">
+					<option value="0">Disabled text</option>
+					<option value="1">Enabled text</option>
+				</field>
+			<field name="foto2" type="media" label="Upload foto 2" description="" default="templates/ig/images/demo/2.jpg"/>
+			<field name="text2" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" label="Write text" description="" rows="8" cols="60"  />
+				<field name="text2d" type="list" default="1" label="" description="">
+					<option value="0">Disabled text</option>
+					<option value="1">Enabled text</option>
+				</field>
+			<field name="foto3" type="media" label="Upload foto 3" description="" default="templates/ig/images/demo/3.jpg"/>
+			<field name="text3" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" label="Write text" description="" rows="8" cols="60"  />
+				<field name="text3d" type="list" default="1" label="" description="">
+					<option value="0">Disabled text</option>
+					<option value="1">Enabled text</option>
+				</field>
+			<field name="foto4" type="media" label="Upload foto 4" description="" default="templates/ig/images/demo/4.jpg"/>
+			<field name="text4" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" label="Write text" description="" rows="8" cols="60"  />
+				<field name="text4d" type="list" default="1" label="" description="">
+					<option value="0">Disabled text</option>
+					<option value="1">Enabled text</option>
+				</field>
+			<field name="foto5" type="media" label="Upload foto 5" description="" default="templates/ig/images/demo/5.jpg"/>
+			<field name="text5" type="textarea" default="Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum" label="Write text" description="" rows="8" cols="60"  />
+			<field name="slider_enabled" type="radio" default="1" label="Enable the frontpage slider" description="Enable the Frontpage Slider">
+				<field name="text5d" type="list" default="1" label="" description="">
+					<option value="0">Disabled text</option>
+					<option value="1">Enabled text</option>
+				</field>
+					<option value="0">Disabled / WYLACZ</option>
+					<option value="1">Enabled / ZALACZ</option>
+				</field>
+			</fieldset>
+			<fieldset name="logo" label="Configuration Logo:"><field name="logo" type="media" label="Select image " description="Logo" default="templates/ig/images/logo.png"/>
+					<field type="spacer" class="text" label="&lt;b style='color:red;'&gt;Rozmiar logo musi wynosic 314px na 71px !&lt;/b&gt;&lt;/a&gt;" />
+					<field type="spacer" class="text" label="&lt;b style='color:green;'&gt;logo size 341px / 71px !&lt;/b&gt;&lt;/a&gt;" />
+				</fieldset>
+				<fieldset name="back" label="Setup back to top:">
+			<field name="back" type="text" default="Back to Top" label="Back to Top:" description="" filter="string" />
+			
+			</fieldset>
+			<fieldset name="footer" label="Setup footer:">
+			<field name="footer" type="text" default="INFINITY GROUP" label="Site name:" description="" filter="string" />
+			<field name="footer_link" type="text" default="index.php" label="Link:" description="Footer link:" filter="string" />
+			</fieldset>
+           <fieldset name="analytics" description="" label="Google Analytics">	
+				<field name="google" type="textarea" label="Google Analytics code" description="Google Analytics" /></fieldset>
+        </fields>
+    </config>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_ig.ini</language>
+    </languages>
+</extension>
